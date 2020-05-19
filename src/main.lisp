@@ -1,5 +1,7 @@
 (defpackage traductor
-  (:use :cl))
+  (:use :cl)
+  (:export :file-trad))
+
 (in-package :traductor)
 
 (defparameter *lang* '((#\e "/¯¯-") (#\a "///") (#\o "-//") (#\s "-//-") (#\r "//¯/") (#\n "¯//-/")
