@@ -37,3 +37,10 @@ csc -o trd trd.scm
 ./trd "hello world"
 /¯-¯//¯¯-/ _/// _//-//--////¯// _///¯/¯
 ```
+### Install in one jump
+
+```bash
+wget -c https://github.com/innaky/traductor/blob/master/scm/trd.tar.gz
+```
+
+Enjoy! :)
