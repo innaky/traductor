@@ -9,7 +9,7 @@
 
 (define (get-char elem lst-of-duples)
   (if (null? lst-of-duples)
-      '()
+      ""
       (if (equal? (caar lst-of-duples) elem)
 	  (cadar lst-of-duples)
 	  (get-char elem (cdr lst-of-duples)))))
