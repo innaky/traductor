@@ -37,10 +37,11 @@ csc -o trd trd.scm
 ./trd "hello world"
 /¯-¯//¯¯-/ _/// _//-//--////¯// _///¯/¯
 ```
-### Install in one jump
 
-```bash
-wget -c https://github.com/innaky/traductor/blob/master/scm/trd.tar.gz
-```
+## Binary Download
+
+64 bits binary download [here](https://github.com/innaky/traductor/raw/master/scm/trd.tar.gz)
+
+Builded in a Debian GNU/Linux buster 64 bits
 
 Enjoy! :)
