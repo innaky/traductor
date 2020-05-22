@@ -11,7 +11,7 @@ This directory is the source code of traductor in chicken scheme
 
 ## Binary Download
 
-64 bits binary download [here](https://github.com/innaky/traductor/blob/master/scm/trd.tar.gz)
+64 bits binary download [here](https://github.com/innaky/traductor/raw/master/scm/trd.tar.gz)
 
 Builded in a Debian GNU/Linux buster 64 bits
 
