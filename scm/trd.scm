@@ -40,8 +40,10 @@
 (define (line-trad line)
   (trad (trad-lst (string-to-charlst line))))
 
-(let ((arg (car (command-line-arguments))))
-  (display
-   (line-trad arg))
-   (newline))
+(if (null? (command-line-arguments))
+    (and (display "Usage: ./trd \"some string\"") (newline))
+    (let ((arg (car (command-line-arguments))))
+      (display
+       (line-trad arg))
+      (newline)))
   
